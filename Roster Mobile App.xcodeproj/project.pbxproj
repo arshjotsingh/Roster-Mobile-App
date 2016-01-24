@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDFACD91C556DA30012EC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFACD81C556DA30012EC89 /* AppDelegate.swift */; };
+		3FDFACDB1C556DA30012EC89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFACDA1C556DA30012EC89 /* ViewController.swift */; };
+		3FDFACDE1C556DA30012EC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDFACDC1C556DA30012EC89 /* Main.storyboard */; };
+		3FDFACE01C556DA30012EC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDFACDF1C556DA30012EC89 /* Assets.xcassets */; };
+		3FDFACE31C556DA30012EC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDFACE11C556DA30012EC89 /* LaunchScreen.storyboard */; };
+		3FDFACEE1C556DA40012EC89 /* Roster_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFACED1C556DA40012EC89 /* Roster_Mobile_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDFACEA1C556DA30012EC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDFACCD1C556DA30012EC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDFACD41C556DA30012EC89;
+			remoteInfo = "Roster Mobile App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FDFACD51C556DA30012EC89 /* Roster Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roster Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDFACD81C556DA30012EC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDFACDA1C556DA30012EC89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDFACDD1C556DA30012EC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDFACDF1C556DA30012EC89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDFACE21C556DA30012EC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FDFACE41C556DA30012EC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDFACE91C556DA30012EC89 /* Roster Mobile AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roster Mobile AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDFACED1C556DA40012EC89 /* Roster_Mobile_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roster_Mobile_AppTests.swift; sourceTree = "<group>"; };
+		3FDFACEF1C556DA40012EC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDFACD21C556DA30012EC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDFACE61C556DA30012EC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDFACCC1C556DA30012EC89 = {
+			isa = PBXGroup;
+			children = (
+				3FDFACD71C556DA30012EC89 /* Roster Mobile App */,
+				3FDFACEC1C556DA30012EC89 /* Roster Mobile AppTests */,
+				3FDFACD61C556DA30012EC89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDFACD61C556DA30012EC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDFACD51C556DA30012EC89 /* Roster Mobile App.app */,
+				3FDFACE91C556DA30012EC89 /* Roster Mobile AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDFACD71C556DA30012EC89 /* Roster Mobile App */ = {
+			isa = PBXGroup;
+			children = (
+				3FDFACD81C556DA30012EC89 /* AppDelegate.swift */,
+				3FDFACDA1C556DA30012EC89 /* ViewController.swift */,
+				3FDFACDC1C556DA30012EC89 /* Main.storyboard */,
+				3FDFACDF1C556DA30012EC89 /* Assets.xcassets */,
+				3FDFACE11C556DA30012EC89 /* LaunchScreen.storyboard */,
+				3FDFACE41C556DA30012EC89 /* Info.plist */,
+			);
+			path = "Roster Mobile App";
+			sourceTree = "<group>";
+		};
+		3FDFACEC1C556DA30012EC89 /* Roster Mobile AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDFACED1C556DA40012EC89 /* Roster_Mobile_AppTests.swift */,
+				3FDFACEF1C556DA40012EC89 /* Info.plist */,
+			);
+			path = "Roster Mobile AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDFACD41C556DA30012EC89 /* Roster Mobile App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDFACF21C556DA40012EC89 /* Build configuration list for PBXNativeTarget "Roster Mobile App" */;
+			buildPhases = (
+				3FDFACD11C556DA30012EC89 /* Sources */,
+				3FDFACD21C556DA30012EC89 /* Frameworks */,
+				3FDFACD31C556DA30012EC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roster Mobile App";
+			productName = "Roster Mobile App";
+			productReference = 3FDFACD51C556DA30012EC89 /* Roster Mobile App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDFACE81C556DA30012EC89 /* Roster Mobile AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDFACF51C556DA40012EC89 /* Build configuration list for PBXNativeTarget "Roster Mobile AppTests" */;
+			buildPhases = (
+				3FDFACE51C556DA30012EC89 /* Sources */,
+				3FDFACE61C556DA30012EC89 /* Frameworks */,
+				3FDFACE71C556DA30012EC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDFACEB1C556DA30012EC89 /* PBXTargetDependency */,
+			);
+			name = "Roster Mobile AppTests";
+			productName = "Roster Mobile AppTests";
+			productReference = 3FDFACE91C556DA30012EC89 /* Roster Mobile AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDFACCD1C556DA30012EC89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					3FDFACD41C556DA30012EC89 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D993252596;
+					};
+					3FDFACE81C556DA30012EC89 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D993252596;
+						TestTargetID = 3FDFACD41C556DA30012EC89;
+					};
+				};
+			};
+			buildConfigurationList = 3FDFACD01C556DA30012EC89 /* Build configuration list for PBXProject "Roster Mobile App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDFACCC1C556DA30012EC89;
+			productRefGroup = 3FDFACD61C556DA30012EC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDFACD41C556DA30012EC89 /* Roster Mobile App */,
+				3FDFACE81C556DA30012EC89 /* Roster Mobile AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDFACD31C556DA30012EC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDFACE31C556DA30012EC89 /* LaunchScreen.storyboard in Resources */,
+				3FDFACE01C556DA30012EC89 /* Assets.xcassets in Resources */,
+				3FDFACDE1C556DA30012EC89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDFACE71C556DA30012EC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDFACD11C556DA30012EC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDFACDB1C556DA30012EC89 /* ViewController.swift in Sources */,
+				3FDFACD91C556DA30012EC89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDFACE51C556DA30012EC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDFACEE1C556DA40012EC89 /* Roster_Mobile_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDFACEB1C556DA30012EC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDFACD41C556DA30012EC89 /* Roster Mobile App */;
+			targetProxy = 3FDFACEA1C556DA30012EC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDFACDC1C556DA30012EC89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDFACDD1C556DA30012EC89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDFACE11C556DA30012EC89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDFACE21C556DA30012EC89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDFACF01C556DA40012EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDFACF11C556DA40012EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDFACF31C556DA40012EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roster Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.asingh.Roster-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FDFACF41C556DA40012EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roster Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.asingh.Roster-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FDFACF61C556DA40012EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Roster Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.asingh.Roster-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster Mobile App.app/Roster Mobile App";
+			};
+			name = Debug;
+		};
+		3FDFACF71C556DA40012EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Roster Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.asingh.Roster-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster Mobile App.app/Roster Mobile App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDFACD01C556DA30012EC89 /* Build configuration list for PBXProject "Roster Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDFACF01C556DA40012EC89 /* Debug */,
+				3FDFACF11C556DA40012EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDFACF21C556DA40012EC89 /* Build configuration list for PBXNativeTarget "Roster Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDFACF31C556DA40012EC89 /* Debug */,
+				3FDFACF41C556DA40012EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FDFACF51C556DA40012EC89 /* Build configuration list for PBXNativeTarget "Roster Mobile AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDFACF61C556DA40012EC89 /* Debug */,
+				3FDFACF71C556DA40012EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDFACCD1C556DA30012EC89 /* Project object */;
+}
